@@ -6,7 +6,7 @@ export default function Home() {
       <header className="w-full bg-blue-600 text-white p-4">
         <h1 className="text-3xl font-bold text-center">Bienvenue sur ma page d'accueil</h1>
       </header>
-      <main className="flex-1 flex flex-col items-center justify-center">
+      <main className="m-4 flex-1 flex flex-col items-center justify-center">
         <h2 className="text-2xl font-semibold mb-4">Ceci est une page d'accueil simple</h2>
         <p className="text-lg text-gray-700 mb-4">
           Créée avec Next.js et stylisée avec Tailwind CSS.
