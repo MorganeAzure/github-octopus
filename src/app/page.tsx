@@ -1,4 +1,5 @@
 import ContactForm from "@/app/ui/contactForm"
+import Presentaion from "./ui/presentation";
 //
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
           En savoir plus
         </button> 
       </main>
+      <Presentaion />
       <ContactForm />
       <footer className="w-full bg-gray-800 text-white p-4 text-center">
         <p>&copy; 2024 MonSite. Tous droits réservés.</p>
