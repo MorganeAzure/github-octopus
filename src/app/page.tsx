@@ -1,5 +1,6 @@
 import ContactForm from "@/app/ui/contactForm"
 import Presentaion from "./ui/presentation";
+import Conflict from "./ui/conflict";
 //
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       </main>
       <Presentaion />
       <ContactForm />
+      <Conflict/>
       <footer className="w-full bg-gray-800 text-white p-4 text-center">
         <p>&copy; 2024 MonSite. Tous droits réservés.</p>
       </footer>
