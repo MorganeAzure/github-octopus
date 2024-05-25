@@ -6,7 +6,7 @@ export default function Presentaion(){
             <div className="flex m-auto w-auto flex-col items-center">
               <img
                 src="/path/to/your/image.jpg"
-                alt="Madison Lee"
+                alt="Morgane picciotto"
                 className="w-40 bg-green-200 rounded-full text-center h-40 m-4"
               />
               <h1 className="text-4xl font-bold text-white mb-2">Morgane Picciotto</h1>
