@@ -1,6 +1,5 @@
 //
 export default function Conflict(){
-    return(
-        <h1>Name A</h1>
-    )
+    //
+    return(<h1>Name B and merge conflict</h1>)
 }
