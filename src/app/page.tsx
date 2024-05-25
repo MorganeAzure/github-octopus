@@ -1,4 +1,4 @@
-
+import ContactForm from "@/app/ui/contactForm"
 //
 export default function Home() {
   return (
@@ -13,8 +13,9 @@ export default function Home() {
         </p>
         <button className="px-6 py-2 bg-blue-600 text-white rounded shadow">
           En savoir plus
-        </button>
+        </button> 
       </main>
+      <ContactForm />
       <footer className="w-full bg-gray-800 text-white p-4 text-center">
         <p>&copy; 2024 MonSite. Tous droits réservés.</p>
       </footer>
