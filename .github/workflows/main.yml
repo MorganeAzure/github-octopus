@@ -1,0 +1,16 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: vercel
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Run script with secrets
+      run: |
+        echo "DB_PASSWORD=${{ secrets.MY_SECRET }}" > .env
+        # Votre script qui utilise le .env
